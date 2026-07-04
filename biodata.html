@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>BIODATA</title>
+<style>
+  body {
+    background: white;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    font-family: 'Arial', 'Liberation Sans', sans-serif;
+  }
+  .form {
+    width: 900px;
+    background: white;
+    padding: 30px 50px 60px;
+    position: relative;
+    color: #141414;
+    font-weight: bold;
+  }
+  h1 {
+    text-align: center;
+    font-size: 42px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+  }
+  .photo-box {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    width: 220px;
+    height: 260px;
+    border: 3px solid #141414;
+    transform: rotate(-2deg);
+    overflow: hidden;
+    background: #eee;
+  }
+  .photo-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .field {
+    display: flex;
+    align-items: baseline;
+    margin: 28px 0;
+    font-size: 22px;
+  }
+  .field.with-photo-space {
+    max-width: 620px;
+  }
+  .label {
+    white-space: nowrap;
+    margin-right: 12px;
+  }
+  .answer-line {
+    flex: 1;
+    border-bottom: 2px solid #141414;
+    padding-bottom: 4px;
+    text-align: left;
+  }
+  .phone-wrap {
+    max-width: 620px;
+  }
+  .phone-wrap .field {
+    margin-bottom: 8px;
+  }
+  .row {
+    display: flex;
+    gap: 40px;
+    margin: 28px 0;
+    font-size: 22px;
+  }
+  .row .field {
+    flex: 1;
+    margin: 0;
+  }
+  .edu-title {
+    font-size: 22px;
+    margin: 40px 0 10px;
+  }
+  .edu-line {
+    text-align: center;
+    font-size: 22px;
+    border-bottom: 2px solid #141414;
+    padding-bottom: 6px;
+    margin: 22px 0;
+  }
+</style>
+</head>
+<body>
+  <div class="form">
+    <h1>BIODATA</h1>
+
+    <div class="photo-box">
+      <img src="photo.png" alt="photo">
+    </div>
+
+    <div class="field with-photo-space">
+      <span class="label">NAME:</span>
+      <span class="answer-line">JANMARK ALAMBRA</span>
+    </div>
+
+    <div class="field with-photo-space">
+      <span class="label">ADDRESS:</span>
+      <span class="answer-line">SECRET BAKA PUNTAHAN MO KO</span>
+    </div>
+
+    <div class="field with-photo-space">
+      <span class="label">BIRTH PLACE:</span>
+      <span class="answer-line">DYAN SA AMIN</span>
+    </div>
+
+    <div class="phone-wrap">
+      <div class="field with-photo-space">
+        <span class="label">PHONE:</span>
+        <span class="answer-line">NOKIA</span>
+      </div>
+      <div class="field">
+        <span class="answer-line">MEDYO ANDROID PERO MINSAN 3310</span>
+      </div>
+    </div>
+
+    <div class="field">
+      <span class="label">STATUS:</span>
+      <span class="answer-line">MEGATRON</span>
+    </div>
+
+    <div class="row">
+      <div class="field">
+        <span class="label">SEX:</span>
+        <span class="answer-line">YES</span>
+      </div>
+      <div class="field">
+        <span class="label">CITIZEN:</span>
+        <span class="answer-line">KAHIT SAAN</span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="field">
+        <span class="label">HEIGHT:</span>
+        <span class="answer-line">9'11</span>
+      </div>
+      <div class="field">
+        <span class="label">WEIGHT:</span>
+        <span class="answer-line">67 KG</span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="field">
+        <span class="label">EYES:</span>
+        <span class="answer-line">PINK</span>
+      </div>
+      <div class="field">
+        <span class="label">HAIR:</span>
+        <span class="answer-line">KALBO</span>
+      </div>
+    </div>
+
+    <div class="edu-title">EDUCATIONAL BACKGROUND:</div>
+    <div class="edu-line">BACHELOR OF TAMBAY WITH DEGREE</div>
+    <div class="edu-line">MAJOR IN PAHINGI HINGI LANG</div>
+    <div class="edu-line">WALANG TRABAHO NGANI</div>
+  </div>
+</body>
+</html>
